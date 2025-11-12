@@ -1,0 +1,109 @@
+#intro-info {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+    h1 {
+        font: var(--subtitle);
+        color: var(--base-gray-200);
+        margin-bottom: 8px;
+
+        span {
+            color: var(--main-red);
+        }
+    }
+
+    h2 {
+        font: var(--title-lg);
+        color: var(--base-gray-100);
+        margin-bottom: 20px;
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--base-gray-300);
+        max-width: 680px;
+    }
+}
+
+#tags {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 94px;
+    gap: 16px;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        gap: 8px;
+        background-color: var(--base-gray-400);
+        padding: 11px;
+        border-radius: 999px;
+
+        img {
+            width: 19px;
+        }
+
+        span {
+            font: var(--text-md);
+            color: var(--base-gray-200);
+        }
+    }
+}
+
+#projects {
+    background-color: var(--base-gray-500);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+
+    h2 {
+        font: var(--subtitle);
+        color: var(--main-red);
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        font: var(--title-md);
+        color: var(--base-gray-100);
+        margin-bottom: 56px;
+    }
+
+    #articles {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 24px;
+        margin-bottom: 144px;
+
+        article {
+            width: 330px;
+            height: 280px;
+            background-color: var(--base-gray-400);
+            padding: 12px 12px 17px 12px;
+            border-radius: 12px;
+
+            img {
+                width: 306px;
+                height: 156px;
+            }
+
+            h4 {
+                font: var(--title-sm);
+                color: var(--base-gray-100);
+                margin-block: 24px 8px;
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--base-gray-200);
+            }
+        }
+    }
+
+}
