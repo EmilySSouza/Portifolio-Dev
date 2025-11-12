@@ -178,7 +178,7 @@
         margin-bottom: 8px;
     }
 
-    > p {
+    >p {
         font: var(--text-md);
         color: var(--base-gray-200);
         margin-bottom: 48px;
@@ -214,15 +214,14 @@
                 justify-items: center;
                 align-items: center;
                 text-align: center;
-            }
 
-            p {
-                font: var(--text-md);
-                color: var(--base-gray-200);
-                text-align: center;
-                text-decoration: none;
+                p {
+                    font: var(--text-md);
+                    color: var(--base-gray-200);
+                    text-align: center;
+                    text-decoration: none;
+                }
             }
-
         }
     }
 }
