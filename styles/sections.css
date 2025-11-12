@@ -197,11 +197,11 @@
             width: 400px;
             height: 68px;
             background-color: var(--base-gray-400);
-            padding: 20px;
             border-radius: 8px;
 
             a {
                 display: flex;
+                padding: 20px;
                 flex-direction: row;
                 justify-content: space-between;
                 text-decoration: none;
