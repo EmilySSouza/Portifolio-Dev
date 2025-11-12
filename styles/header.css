@@ -14,10 +14,4 @@
         border: 2px solid var(--main-red);
         margin-block: 128px 64px;
     }
-
-    a {
-        >img:last-child {
-            margin-bottom: 57px;
-        }
-    }
 }

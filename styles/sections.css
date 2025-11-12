@@ -66,7 +66,7 @@
     h2 {
         font: var(--subtitle);
         color: var(--main-red);
-        margin-bottom: 8px;
+        margin-block: 129px 8px;
     }
 
     h3 {
@@ -178,7 +178,7 @@
         margin-bottom: 8px;
     }
 
-    >p {
+    > p {
         font: var(--text-md);
         color: var(--base-gray-200);
         margin-bottom: 48px;

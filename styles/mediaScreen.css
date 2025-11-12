@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    #projects {
+        #articles {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+    }
+}
+
+@media (min-width: 701px) and (max-width: 767px) {
+    #projects {
+        #articles {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+    }
+}
+
+@media (max-width: 700px) {
+    #tags {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #projects {
+        #articles {
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+
+    #services {
+        #cards {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
