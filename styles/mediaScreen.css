@@ -37,4 +37,12 @@
             flex-direction: column;
         }
     }
+
+    #contact {
+        ul {
+            li {
+                width: 300px;
+            }
+        }
+    }
 }
