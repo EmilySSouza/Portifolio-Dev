@@ -91,6 +91,7 @@
             img {
                 width: 306px;
                 height: 156px;
+                aspect-ratio: 16/9;
             }
 
             h4 {
@@ -204,7 +205,6 @@
                 padding: 20px;
                 flex-direction: row;
                 justify-content: space-between;
-                text-decoration: none;
             }
 
             .infoLinks {
@@ -219,7 +219,6 @@
                     font: var(--text-md);
                     color: var(--base-gray-200);
                     text-align: center;
-                    text-decoration: none;
                 }
             }
         }
