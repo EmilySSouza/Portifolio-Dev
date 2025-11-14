@@ -10,6 +10,7 @@
         font: var(--subtitle);
         color: var(--base-gray-200);
         margin-bottom: 8px;
+        margin-inline: 40px;
 
         span {
             color: var(--main-red);
@@ -20,12 +21,15 @@
         font: var(--title-lg);
         color: var(--base-gray-100);
         margin-bottom: 20px;
+        margin-inline: 40px;
     }
 
     p {
         font: var(--text-sm);
         color: var(--base-gray-300);
+        min-width: 300px;
         max-width: 680px;
+        margin-inline: 40px;
     }
 }
 
@@ -127,6 +131,8 @@
         font: var(--title-md);
         color: var(--base-gray-100);
         margin-bottom: 56px;
+        max-width: 300px;
+        text-align: center;
     }
 
     #cards {

@@ -19,6 +19,11 @@
 }
 
 @media (max-width: 700px) {
+    #intro-info {
+        h2 {
+            font-size: 46px;
+        }
+    }
     #tags {
         display: grid;
         grid-template-columns: auto auto;
@@ -32,6 +37,7 @@
     }
 
     #services {
+
         #cards {
             display: flex;
             flex-direction: column;
